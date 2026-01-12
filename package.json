@@ -3,12 +3,33 @@
   "displayName": "hello-plugin",
   "description": "It is just test plugin",
   "version": "0.0.1",
+  "icon": "png-icons.png",
+  "license": "Apache 2.0",
   "engines": {
     "vscode": "^1.107.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages",
+    "Machine Learning",
+    "Snippets"  
   ],
+  "keywords": [
+    "ai",
+    "artificial intelligence",
+    "code assistant",
+    "code completion",
+    "productivity",
+    "code helper",
+    "refactoring",
+    "code suggestions",
+    "intelligent coding",
+    "developer tools"
+  ],
+  "bugs": {
+    "url": "https://github.com/yourname/code-helper-agent/issues",
+    "email": "support@yourname.com"
+  },
+  "homepage": "https://github.com/vikas-nimje/visual-studio-extension-proj/blob/main/README.md",
   "activationEvents": [
     "onCommand:hello-plugin.hello"
   ],
